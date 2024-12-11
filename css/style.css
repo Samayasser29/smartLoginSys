@@ -1,0 +1,41 @@
+body{
+    background-color:#24353f;
+}
+.mainSec{
+    background: transparent;
+    
+}
+.mainSec h1{
+    color: #17a2b8;
+    font-size: 2.5rem
+}
+
+.btn-outline-info {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+}  
+.form-input{
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ced4da;
+    background-color: #24353f;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+a{
+    text-decoration:dashed;
+    transition:text-decoration ;
+    color:white;
+}
+a:hover{
+    color: #17a2b8;
+}

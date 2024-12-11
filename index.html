@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Smart Login</title>
+</head>
+<body>
+    <main >
+    <div class="container mainSec shadow-lg mt-5 w-75">
+        <div class="loginSec text-center pt-4 pb-4">
+            <h1>Smart Login System</h1>
+            <form class="  mt-4 w-75 mx-auto">
+            <div class="mb-1">
+                <label for="email" class="form-label"></label>
+                <input type="text" class=" form-control" id="email" placeholder="Enter your E-mail">
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label"></label>
+                <input type="password" class=" form-control" id="password" placeholder="Enter your password">
+              </div>
+              <div id="errorLayer" class="errorLayer d-none ">
+                <div class="message text-center p-0    mx-auto ">
+                    <p class="text-danger ">All inputs require</p>
+                </div>
+            </div>
+            <p id="errorLoginMsg" class="text-center text-danger d-none "> Invaild email or password</p>
+              <button type="button" id="loginBtn"  class="btn btn-lg btn-outline-info pt-1 pb-1 pe-5 ps-5 mt-2 mb-3">Login</button>
+            <p class="text-white"> Don’t have an account ?
+                <a class="" href="/signup.html"> Sign Up</a>
+           </p>
+            </form>
+           
+        </div>
+    </div>
+  
+</main>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

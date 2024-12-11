@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main >
+        <div class="container mainSec shadow-lg mt-5  w-75">
+            <div class="loginSec text-center pt-4 mt-5 pb-4">
+                <h1>Smart signUp System</h1>
+                <form class="  mt-4 w-75 mx-auto">
+                <div class="">
+                    <label for="userName" class="form-label"></label>
+                    <input type="text" class=" form-control " id="userName" placeholder="Enter your name">
+                  </div>
+                  <div class="">
+                    <label for="email" class="form-label"></label>
+                    <input type="text" class=" form-control" id="email" placeholder="Enter your E-mail">
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label"></label>
+                    <input type="password" class=" form-control" id="password" placeholder="Enter your password">
+                  </div>
+                  <p id="errorSignMsg" class="text-center text-danger d-none "> Email is already exist</p>
+                  <p id="successSignMsg" class="text-center text-success  d-none "> Successfull signUp</p>
+                  <button type="submit" id="signupBtn"  class="btn btn-lg btn-outline-info pt-1 pb-1 pe-5 ps-5 mt-2 mb-3">sign Up</button>
+                  <p class="text-white"> Already have account ?
+                    <a class="" href="/index.html"> Login</a>
+                 </p>
+                </form>
+               
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/signup.js"></script>
+</body>
+</html>
